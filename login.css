@@ -1,0 +1,542 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 270vh;
+    background: rgb(221, 221, 221);
+    
+}
+.main{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background:rgb(39, 12, 102);
+}
+
+
+.main .one input{
+    background: white;
+    width: 350px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.main #image{
+    width: 40px;
+}
+
+#three{
+    width: 120px;
+}
+
+#login{
+    width: 120px;
+    padding: 4px;
+    background: rgb(252, 143, 0);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-right: 50px;
+}
+
+#login:hover{
+    background: tomato;
+    transition: ease-in-out 0.5s;
+}
+
+.home {
+    margin-right: 400px;
+}
+
+
+.first{
+    background: white;
+    width: 800px;
+    height: 130px;
+    float: right;
+    margin-right: 150px;
+    margin-top: 0.6px;
+    border-radius: 5px;
+}
+
+.first p{
+    font-weight: bold;
+    color: rgb(255, 123, 0);
+}
+
+.question #Q{
+    margin-left: 5px;
+    width: 30px;
+    margin-top: 10px;
+}
+
+.question #Q1{
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 1px;
+}
+.question #Q1 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#text{
+    width: 600px;
+    height: 20px;
+    margin-top: 10px;
+    padding: 25px;
+    border: transparent;
+    margin-left: 10px;
+    background: rgb(221, 221, 221);
+}
+
+.first .question{
+    display: flex;
+    align-items: center;
+}
+
+.first .answer{
+    display: flex;
+    align-items: center;
+}
+
+.answer #A2 button{
+    margin-left: 10px;
+    width: 110px;
+    background: rgb(10, 3, 90);
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+.answer #A2 button:hover{
+    background: rgb(119, 145, 145);
+    font-weight: bold;
+    color: black;
+    transition: ease-in-out 0.5s;
+}
+
+.second{
+    background:white;
+    width: 800px;
+    height: 450px;
+    float: right;
+    margin-top: 40px;
+    margin-right:150px ;
+    border-radius: 5px;
+}
+
+.second .name{
+    display: flex;
+    margin-left: 10px;
+}
+
+.second .name #nameone{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.second .name #nametwo{
+    margin-left: 10px;
+    margin-top: 15px;  
+}
+
+.second .ques{
+    margin-left: 15px;
+    margin-top: 20px;
+    font-weight: bolder;
+    color: rgb(6, 6, 56);
+    font-size: 20px;
+
+}
+.second .ans{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 15px;
+    
+}
+
+.second .imgone img{
+    width: 250px;
+    height: 200px;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.second .colour{
+    display: flex;
+}
+
+.second .colour button{
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background: darkblue;
+    border-radius: 3px;
+}
+
+.second .comment{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.colour .com button:hover{
+      background: darkgray;
+}
+
+.second .comment input{
+    width: 500px;
+    padding: 20px;
+   border: transparent;
+   border-radius: 3px;
+   background: rgb(221, 221, 221);
+}
+
+.third{
+    background:white;
+    width: 800px;
+    height: 250px;
+    float: right;
+    margin-top: 40px;
+    margin-right:150px ;
+    border-radius: 5px;
+}
+
+.third .name{
+    display: flex;
+    margin-left: 10px;
+}
+
+.third .name #nameone{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.third .name #nametwo{
+    margin-left: 10px;
+    margin-top: 15px;  
+}
+
+.third .ques{
+    margin-left: 15px;
+    margin-top: 20px;
+    font-weight: bolder;
+    color: rgb(6, 6, 56);
+    font-size: 20px;
+
+}
+.third .ans{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 15px;
+    
+}
+
+.third .imgone img{
+    width: 250px;
+    height: 200px;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.third .colour{
+    display: flex;
+}
+
+.third .colour button{
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background: darkblue;
+    border-radius: 3px;
+}
+
+.third .comment{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.third .comment input{
+    width: 500px;
+    padding: 20px;
+   border: transparent;
+   border-radius: 3px;
+   background: rgb(221, 221, 221);
+}
+
+.four{
+    background:white;
+    width: 800px;
+    height: 300px;
+    float: right;
+    margin-top: 40px;
+    margin-right:150px ;
+    border-radius: 5px;
+}
+
+.four .name{
+    display: flex;
+    margin-left: 10px;
+}
+
+.four .name #nameone{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.four .name #nametwo{
+    margin-left: 10px;
+    margin-top: 15px;  
+}
+
+.four .ques{
+    margin-left: 15px;
+    margin-top: 20px;
+    font-weight: bolder;
+    color: rgb(6, 6, 56);
+    font-size: 20px;
+
+}
+.four .ans{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 15px;
+    
+}
+
+.four .imgone img{
+    width: 250px;
+    height: 200px;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.four .colour{
+    display: flex;
+}
+
+.four .colour button{
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background: darkblue;
+    border-radius: 3px;
+}
+
+.four .comment{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.four .comment input{
+    width: 500px;
+    padding: 20px;
+   border: transparent;
+   border-radius: 3px;
+   background: rgb(221, 221, 221);
+}
+.five{
+    background:white;
+    width: 800px;
+    height: 260px;
+    float: right;
+    margin-top: 40px;
+    margin-right:150px ;
+    border-radius: 5px;
+}
+
+.five .name{
+    display: flex;
+    margin-left: 10px;
+}
+
+.five .name #nameone{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.five .name #nametwo{
+    margin-left: 10px;
+    margin-top: 15px;  
+}
+
+.five .ques{
+    margin-left: 15px;
+    margin-top: 20px;
+    font-weight: bolder;
+    color: rgb(6, 6, 56);
+    font-size: 20px;
+
+}
+.five .ans{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 15px;
+    
+}
+
+.five .imgone img{
+    width: 250px;
+    height: 200px;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.five .colour{
+    display: flex;
+}
+
+.five .colour button{
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background: darkblue;
+    border-radius: 3px;
+}
+
+.five .comment{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.five .comment input{
+    width: 500px;
+    padding: 20px;
+   border: transparent;
+   border-radius: 3px;
+   background: rgb(221, 221, 221);
+}
+.box{
+    background: white;
+    width: 100px;
+    height: 100px;
+    margin-left: 230px;
+    margin-top: 30px;
+    border-radius: 5px;
+    width: 300px;
+    height: 65px;
+    border: 1px solid rgb(187, 187, 187);
+}
+.boxone{
+    background: white;
+    width: 100px;
+    height: 100px;
+    margin-left: 230px;
+    margin-top: 0.6px;
+    border-radius: 5px;
+    width: 300px;
+    height: 65px;
+    border: 1px solid rgb(187, 187, 187);
+}
+.boxtwo{
+    background: white;
+    width: 100px;
+    height: 100px;
+    margin-left: 230px;
+    margin-top: 0.6px;
+    border-radius: 5px;
+    width: 300px;
+    height: 65px;
+    border: 1px solid rgb(187, 187, 187);
+}
+.boxthree{
+    background: white;
+    width: 100px;
+    height: 100px;
+    margin-left: 230px;
+    margin-top: 0.6px;
+    border-radius: 5px;
+    width: 300px;
+    height: 65px;
+    border: 1px solid rgb(187, 187, 187);
+}
+#History{
+    color: rgb(255, 123, 0);
+    font-weight: bolder;
+    padding: 15px 15px 0px 15px;
+    
+}
+#History a{
+    text-decoration: none;  
+}
+
+#History a:hover{
+    color: crimson;
+}
+#Questions{
+    color: rgb(255, 123, 0);
+    font-weight: bolder;
+    padding: 15px 15px 0px 15px;
+}
+#Questions a{
+    text-decoration: none;
+    
+}
+#Questions a:hover{
+    color: crimson;
+}
+#Answers{
+    color: rgb(255, 123, 0);
+    font-weight: bolder;
+    padding: 15px 15px 0px 15px;
+}
+#Account a{
+    text-decoration: none;   
+}
+#Answers a:hover{
+    color: crimson;
+}
+
+#Account{
+    color: rgb(255, 123, 0);
+    font-weight: bolder;
+    padding: 15px 15px 0px 15px;
+}
+#Answers a{
+    text-decoration: none;
+}
+#Account a:hover{
+    color: crimson;
+}
+
+
+#zero{
+    margin-left: 15px;
+}
+#zeroone{
+    margin-left: 15px;
+}
+
+#zerotwo{
+    margin-left: 15px;
+}
+#zerothree{
+    margin-left: 15px;
+}
+
+.main .two #bell{
+     margin-left: 50px;
+}
+.two #bell:hover{
+   color: black;
+}
+
+.main .two #msg{
+    margin-left: 50px;
+}
